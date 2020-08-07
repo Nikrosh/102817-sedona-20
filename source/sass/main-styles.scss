@@ -1,0 +1,79 @@
+//fonts
+
+@font-face {
+  font-family: "PT-Sans";
+  src: url(../fonts/ptsans.woff2) format("woff2"), url(../fonts/ptsans.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT-Sans";
+  src: url(../fonts/ptsansbold.woff2) format("woff2"), url(../fonts/ptsansbold.woff) format("woff");
+  font-weight: 700;
+  font-style: bold;
+}
+
+
+//variables
+
+$black: #000;
+$dark-gray: #333;
+$white: #fff;
+$blue: #81B3D2;
+$gray-bg: #eee;
+$gray-elem: #D6D6D6;
+
+
+//styles
+
+body {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: $dark-gray;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-main {
+  font-family: "PT-Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+}
+
+.button {
+  display: block;
+  height: 58px;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 58px;
+  text-align: center;
+  background-color: $blue;
+  border: none;
+}

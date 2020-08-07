@@ -1,0 +1,32 @@
+.footer {
+  text-align: center;
+}
+
+.footer__hashtag {
+  font-family: "PT-Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0;
+  margin-top: 38px;
+  margin-bottom: 33px;
+}
+
+.footer__social {
+  margin-bottom: 40px;
+}
+
+.footer__academy {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 27px;
+  text-decoration: none;
+  color: $black;
+  padding-top: 4px;
+  padding-right: 39px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 26px 34px;
+  background-image: url(../img/htmlacademy.svg);
+}

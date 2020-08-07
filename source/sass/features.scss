@@ -1,0 +1,39 @@
+.features {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.features__list {
+  list-style: none;
+  padding: 0;
+}
+
+.features__item {
+  padding-left: 50px;
+  padding-top: 9px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  &--houses {
+    margin-top: 25px;
+    background-size: 36px 39px;
+    background-image: url(../img/icon-house.svg);
+  }
+  &--souvenirs {
+    margin-top: 15px;
+    margin-bottom: 21px;
+    background-size: 32px 38px;
+    background-image: url(../img/icon-gift.svg);
+  }
+  &--eat {
+    margin-bottom: 31px;
+    background-size: 40px 34px;
+    background-image: url(../img/icon-burger.svg);
+  }
+  h3 {
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  p {
+    margin: 0;
+  }
+}

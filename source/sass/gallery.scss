@@ -1,0 +1,37 @@
+.gallery {
+
+}
+
+.gallery__item {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 23px;
+  padding-bottom: 21px;
+  border-top: 1px solid $gray-elem;
+  &:last-child {
+    border-bottom: 1px solid $gray-elem;
+  }
+}
+
+.gallery__title {
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 11px;
+  margin-bottom: 1px;
+}
+
+.gallery__author {
+  font-style: normal;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.gallery__like {
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 37px;
+  background-repeat: no-repeat;
+  background-image: url(../img/icon-like.svg);
+  background-position: left;
+}
